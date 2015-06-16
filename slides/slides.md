@@ -1,4 +1,4 @@
-% An encoding for Any within Leon
+% An encoding of Any for Leon
 % Romain Ruetschi, LARA - EPFL
 % Spring 2015
 
