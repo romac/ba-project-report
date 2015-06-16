@@ -225,9 +225,9 @@ def reverse(lst: Any): Any = {
 
 Without those preconditions, counter-examples are yielded for postconditions.
 
-## What's left?
+## Match exhaustivity
 
-Maybe more, cannot tell at the moment.
+Implicit case classes show up as counter-examples, which is something we might not want.
 
 # Other applications
 
