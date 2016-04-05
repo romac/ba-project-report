@@ -256,7 +256,7 @@ It is currently unclear whether this feature really provides additional guarante
 
 ## Extending `Any` with implicit classes
 
-In order to enable a kind of dynamically-typed (or untyped) programming within Leon, it would be nice to be able to call various methods on values of type `Any`, such as `+`, `-`, etc. and let Leon prove properties about code making use of such operations. Unfortunately, it is not possible in Scala to add methods to `Any` itself, via implicit classes or conversions. Luckily for us, since we encode `Any` as a standard hierarchy of classes, we are able to do so for `Any1`.
+In order to enable a kind of dynamically-typed (or untyped) programming within Leon, it would be nice to be able to call various methods on values of type `Any`, such as `+`, `-`, etc. and let Leon prove properties about code making use of such operations.
 
 ### Implicit classes
 
